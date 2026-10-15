@@ -5,8 +5,7 @@ import starlightThemeBlack from 'starlight-theme-black';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://sandcastle-rs.github.io',
-	base: '/documentation',
+	site: 'https://sandcastle.rs',
 	integrations: [
 		starlight({
 			plugins: [
